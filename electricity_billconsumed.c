@@ -20,22 +20,22 @@ Bill: ₹2200
 */
 #include<stdio.h>
 int main(){
-    int days , bill;
+    int unit , bill;
     printf("Enter the unit of electricity consumed:");
-    scanf("%d",&days);
+    scanf("%d",&unit);
 
-    if(days<=50){
-        bill= days*5;
+    if(unit<=50){
+        bill= unit*5;
         printf("The total electricity bill is %d",bill);
     }
 
-    else if (days<=100 && days>50){
-        bill= days * 8;
+    else if (unit <=100 && unit >50){
+        bill= unit * 8;
      printf("The total electricity bill is %d",bill);
 
     }
-    else if (days>100){
-        bill= days*10;
+    else if (unit >100){
+        bill= unit *10;
         printf("The total electricity bill is %d",bill);
     }
     return 0;
