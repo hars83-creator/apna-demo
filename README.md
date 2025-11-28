@@ -1,4 +1,4 @@
 # apna-demo
-This is my first Git repository. 
+Repo for 100 days of code (150 question)...
 <br>
 Author - HARSH
